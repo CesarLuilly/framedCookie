@@ -7,7 +7,8 @@
     
 <script>
   document.cookie = 'safari_cookie_fix=fixed; path=/';
-  
+  let controlcookie=0;
+  alert("carga nuevo");
   if (window.location.href.indexOf('verbose') > -1) { 
     console.log('safari fix has been applied'); 
     window.location.replace(document.referrer);
