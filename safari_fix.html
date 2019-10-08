@@ -7,6 +7,7 @@
   
 <script>
   document.cookie = 'safari_cookie_fix=fixed; path=/';
+  alert(window.location.href);
   if (window.location.href.indexOf('verbose') > -1) { // you should remove or comment this line
     alert('safari fix has been applied'); // you should remove or comment this line
     setTimeout(window.location.replace(document.referrer), 2000); // you should remove or comment this line
